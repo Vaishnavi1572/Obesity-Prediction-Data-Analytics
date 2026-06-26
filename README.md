@@ -1,136 +1,123 @@
-# 🩺 Obesity Prediction Data Analytics
+# Project Title
 
-## 📌 Project Overview
-
-Obesity is a major public health concern that increases the risk of chronic diseases such as diabetes, hypertension, and cardiovascular disorders. This project analyzes obesity-related data to identify patterns, understand lifestyle factors influencing obesity, and provide actionable insights through data visualization.
-
-The project uses **Python** for data cleaning, exploratory data analysis (EDA), and visualization, while **Power BI** is used to create an interactive dashboard for business intelligence reporting.
+Obesity Prediction Data Analytics
 
 ---
 
-## 🎯 Problem Statement
+# Description
 
-Obesity has become a growing global health challenge, increasing healthcare costs and reducing quality of life. Healthcare organizations require data-driven insights to understand how factors such as age, weight, eating habits, physical activity, and family history influence obesity. This project analyzes obesity-related data to support informed healthcare decisions and promote healthier lifestyles.
-
----
-
-## 🎯 Objectives
-
-- Perform data cleaning and preprocessing.
-- Conduct Exploratory Data Analysis (EDA).
-- Analyze obesity trends using statistical and visual techniques.
-- Develop an interactive Power BI dashboard.
-- Generate meaningful business insights and recommendations.
+Obesity Prediction Data Analytics is an end-to-end data analytics project that analyzes obesity-related factors such as age, weight, eating habits, physical activity, and lifestyle using Python and Power BI. The project performs data cleaning, exploratory data analysis (EDA), and interactive dashboard creation to identify obesity patterns and generate meaningful business insights that support data-driven healthcare decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
+# Getting Started
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Power BI
-- GitHub
+## Dependencies
 
----
+Before running the project, ensure the following are installed:
 
-## 📂 Dataset
+- Python 3.10 or above
+- Google Colab or Jupyter Notebook
+- Power BI Desktop
 
-**Dataset:** Obesity Dataset (Synthetic)
+### Required Python Libraries
 
-The dataset contains demographic, lifestyle, eating habits, physical activity, and obesity level information for over 2,000 individuals.
+```
+pandas
+numpy
+matplotlib
+seaborn
+```
 
----
+Install the required libraries using:
 
-## 📊 Project Workflow
-
-1. Import Dataset from GitHub
-2. Data Understanding
-3. Data Cleaning
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Power BI Dashboard Development
-7. Business Insights
-8. Recommendations
-9. Conclusion
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
 ---
 
-## 📈 Exploratory Data Analysis
+# Installing
 
-### Univariate Analysis
-- Obesity Level Distribution
-- Age Distribution
-- Weight Boxplot
+Clone the repository:
 
-### Bivariate Analysis
-- Age vs Weight
-- Average Weight by Obesity Level
-- Correlation Heatmap
+```bash
+git clone https://github.com/Vaishnavi1572/Obesity-Prediction-Data-Analytics.git
+```
 
-### Multivariate Analysis
-- Pairplot
-- Average Weight by Gender and Obesity Level
+Move to the project folder:
+
+```bash
+cd Obesity-Prediction-Data-Analytics
+```
 
 ---
 
-## 📊 Power BI Dashboard
+# Executing Program
 
-The interactive dashboard includes:
+Open the notebook in Google Colab or Jupyter Notebook and execute the cells one by one.
 
-- Total Participants
-- Male & Female Count
-- Average Age
-- Obesity Level Distribution
-- Age Distribution
-- Transportation Mode
-- Correlation Heatmap
-- Average Weight by Obesity Level
-- Weight vs Height Analysis
+Example:
 
----
+```python
+import pandas as pd
 
-## 💡 Key Insights
+url = "https://raw.githubusercontent.com/Vaishnavi1572/Obesity-Prediction-Data-Analytics/main/ObesityDataSet_raw_and_data_sinthetic%202.csv"
 
-- Young adults form the largest group in the dataset.
-- Obesity Type I is the most common obesity category.
-- Weight has a stronger influence on obesity than age.
-- Height and weight show a moderate positive correlation.
-- Public transportation is the most frequently used travel mode.
+df = pd.read_csv(url)
+
+df.head()
+```
+
+After completing the analysis, open the Power BI (.pbix) file to view the interactive dashboard.
 
 ---
 
-## ✅ Recommendations
+# Help
 
-- Promote regular physical activity.
-- Encourage healthy eating habits.
-- Conduct regular obesity screening programs.
-- Increase awareness among high-risk groups.
-- Use data analytics to support healthcare decision-making.
+If you encounter any issues:
 
----
-
-## 🚀 Future Enhancements
-
-- Build machine learning models for obesity prediction.
-- Develop a real-time dashboard.
-- Include additional health parameters.
-- Generate personalized health recommendations.
-- Deploy the solution as a web or mobile application.
+- Ensure all required Python libraries are installed.
+- Verify the GitHub dataset URL is correct.
+- Check your internet connection.
+- Run the notebook cells in sequential order.
+- Restart the notebook runtime if necessary.
 
 ---
 
-## 📌 Conclusion
-
-This project demonstrates how Python and Power BI can be used to transform obesity data into meaningful insights. The analysis helps identify key obesity risk factors and supports data-driven decision-making for healthcare professionals and policymakers.
-
----
-
-## 👩‍💻 Author
+# Authors
 
 **Vaishnavi T**
 
+GitHub: https://github.com/Vaishnavi1572
+
+---
+
+# Version History
+
+## 1.0
+
+- Initial release
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Business Insights
+- Interactive Power BI Dashboard
+
+---
+
+# License
+
+This project is developed for educational and academic purposes.
+
+---
+
+# Acknowledgments
+
+- UCI Machine Learning Repository
+- Python Documentation
+- Pandas Documentation
+- Matplotlib Documentation
+- Seaborn Documentation
+- Microsoft Power BI
+- GitHub
 
